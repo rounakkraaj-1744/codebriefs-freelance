@@ -48,7 +48,7 @@ const Navigation = () => {
             <div className="p-2 bg-primary/10 rounded-lg">
               <Code className="w-6 h-6 text-primary" />
             </div>
-            <span className="text-xl font-bold text-foreground">CodeBriefs</span>
+            <span className="text-xl font-bold text-foreground">NavAura</span>
           </div>
 
           {/* Desktop Navigation */}
