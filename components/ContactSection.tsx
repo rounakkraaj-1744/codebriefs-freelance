@@ -24,8 +24,8 @@ const contactInfo = [
     icon: Mail,
     title: "Email Us",
     description: "Get a response within 2 hours",
-    value: "hello@NavAura.co",
-    action: "mailto:hello@NavAura.co"
+    value: "hello@NanoQuant.co",
+    action: "mailto:hello@NanoQuant.co"
   },
   {
     icon: MessageCircle,
@@ -38,7 +38,7 @@ const contactInfo = [
     icon: Calendar,
     title: "Schedule Meeting",
     description: "Book a free 30-min consultation",
-    value: "calendly.com/NavAura",
+    value: "calendly.com/NanoQuant",
     action: "https://calendly.com"
   }
 ];
