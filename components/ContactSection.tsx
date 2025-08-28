@@ -24,8 +24,8 @@ const contactInfo = [
     icon: Mail,
     title: "Email Us",
     description: "Get a response within 2 hours",
-    value: "hello@NanoQuant.co",
-    action: "mailto:hello@NanoQuant.co"
+    value: "nanoquant.in@gmail.com",
+    action: "mailto:nanoquant.in@gmail.com"
   },
   {
     icon: MessageCircle,
@@ -237,7 +237,7 @@ const ContactSection = () => {
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full group shadow-lg hover:shadow-xl transition-all duration-300"
+                    className="w-full group shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? (

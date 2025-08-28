@@ -29,7 +29,7 @@ const predefinedResponses: Record<string, string> = {
   pricing: "Our pricing varies based on project scope:\n• MVP Development: Starting at $5,000\n• Full-Stack Solutions: $15,000 - $50,000\n• Enterprise Projects: Custom quotes\n\nWould you like to discuss your specific project?",
   services: "We offer comprehensive development services:\n• Frontend (React, Next.js, Vue.js)\n• Backend (Node.js, Python, Java, Go)\n• AI/ML Integration\n• Blockchain & Web3\n• Cloud & DevOps\n• Database Design\n\nWhich service interests you most?",
   timeline: "Development timelines depend on complexity:\n• MVP: 2-4 weeks\n• Full-Stack App: 4-8 weeks\n• Enterprise Solution: 2-6 months\n\nI can help you get a more accurate estimate based on your requirements!",
-  contact: "You can reach us through:\n• Email: hello@NanoQuant.co\n• Live chat (here!)\n• Schedule a call: calendly.com/NanoQuant\n\nWould you like to schedule a free consultation?",
+  contact: "You can reach us through:\n• Email: nanoquant.in@gmail.com\n• Live chat (here!)\n• Schedule a call: calendly.com/NanoQuant\n\nWould you like to schedule a free consultation?",
   tech: "We work with modern tech stacks:\n• Frontend: React, Next.js, TypeScript, Tailwind\n• Backend: Node.js, Python, Java, Go\n• Databases: PostgreSQL, MongoDB, Redis\n• Cloud: AWS, Azure, GCP\n• AI: OpenAI, TensorFlow, PyTorch\n\nWhat technology are you interested in?",
   default: "Thanks for your message! I'd be happy to help you learn more about our development services. You can ask me about:\n• Pricing and packages\n• Our services and technologies\n• Project timelines\n• How to get started\n\nOr feel free to ask anything specific about your project!"
 };

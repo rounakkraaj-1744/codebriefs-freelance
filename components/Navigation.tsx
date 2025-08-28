@@ -7,7 +7,7 @@ import { Menu, X, Code, ArrowRight } from "lucide-react";
 const navigationItems = [
   { label: "Services", href: "#services" },
   { label: "About", href: "#about" },
-  { label: "Pricing", href: "#pricing" },
+  // { label: "Pricing", href: "#pricing" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" }
 ];
@@ -57,7 +57,7 @@ const Navigation = () => {
               <button
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
+                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium hover:cursor-pointer"
               >
                 {item.label}
               </button>
@@ -68,7 +68,7 @@ const Navigation = () => {
           <div className="hidden md:block">
             <Button 
               onClick={() => scrollToSection("#contact")}
-              className="group shadow-md hover:shadow-lg transition-all duration-300"
+              className="group shadow-md hover:shadow-lg hover:cursor-pointer transition-all duration-300"
             >
               Start Project
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />

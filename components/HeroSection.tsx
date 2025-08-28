@@ -33,11 +33,11 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button size="lg" className="group shadow-lg hover:shadow-xl transition-all duration-300">
+          <Button size="lg" className="group shadow-lg hover:shadow-xl hover:cursor-pointer transition-all duration-300">
             Start Your Project
             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button variant="outline" size="lg" className="shadow-md hover:shadow-lg transition-all duration-300">
+          <Button variant="ghost" size="lg" className="shadow-md hover:shadow-lg hover:cursor-pointer transition-all duration-300">
             <Code className="mr-2 w-4 h-4" />
             View Our Work
           </Button>
